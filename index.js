@@ -220,6 +220,10 @@ app.get('/dishes/sort-by-price', async (req, res) => {
   }
 });
 
+app.get("/" , (res,res) => {
+  res.re
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
